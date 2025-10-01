@@ -1155,3 +1155,14 @@ body[data-aos-easing=ease-in-out-quart] [data-aos] {
 [data-aos=flip-down].aos-animate {
   transform: perspective(2500px) rotateX(0)
 }
+
+/* Bloqueia scroll horizontal em toda a página */
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+/* Garantir que nenhum elemento estoure da tela */
+* {
+    box-sizing: border-box;
+}
